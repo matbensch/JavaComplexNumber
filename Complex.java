@@ -1,9 +1,9 @@
 import java.awt.Color;
 
 public class Complex {
-	private final double re; // the real part
-	private final double im; // the imaginary part
-	private final double tolerance = Math.pow(10, -6);
+	private double re; // the real part
+	private double im; // the imaginary part
+	private double tolerance = Math.pow(10, -6);
 
 	public static final Complex I = new Complex(0, 1);
 	public static final Complex ONE = new Complex(1, 0);
