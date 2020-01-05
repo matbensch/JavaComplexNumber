@@ -19,6 +19,26 @@ public class Complex {
 		this.im = imag;
 	}
 
+	// returns real component
+	public double getReal() {
+		return this.re;
+	}
+
+	// returns imaginary component
+	public double getImag() {
+		return this.im;
+	}
+
+	// change real component
+	public void setReal(double re) {
+		this.re = re;
+	}
+
+	// change imaginary component
+	public void setImag(double im) {
+		this.im = im;
+	}
+
 	// create a new object from a real
 	public Complex(double d) {
 		this.re = d;
